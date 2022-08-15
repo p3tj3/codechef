@@ -1,6 +1,6 @@
 # https://www.codechef.com/submit/TWOTRAINS
 
-# the largest number in the sequence is a bottleneck that has to be doubled
+# The largest number in the sequence is a bottleneck-value that has to be doubled.
 
 for t in range(int(input())):
     input()

@@ -1,7 +1,7 @@
 # https://www.codechef.com/AUG221B/problems/AFLIP
 
-# Numbers can be exchanged like pieces moving over diagonals with a game like Checkers
-# Divide both matrices into two accordingly and collect and compare all items
+# Numbers can be exchanged like pieces moving over diagonals in a game like Checkers
+# Divide both matrices into two accordingly and collect and compare
 
 from collections import defaultdict
 
