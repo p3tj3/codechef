@@ -1,6 +1,6 @@
 # https://www.codechef.com/submit/SMALLXOR
 
-# Sort the numbers in O(n)log(n), perform xor operations by iteration of the array until a newly created xored-value is the new minimum element.
+# Sort the numbers in O(nlog(n)), perform xor operations by iteration of the array until a newly created xored-value is the new minimum element.
 # The remaining operations will xor this number solely.
 
 
