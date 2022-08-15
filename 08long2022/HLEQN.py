@@ -9,10 +9,13 @@ def solve(x):
 
     x += 4
 
-    if not any(x%el == 0 for el in range(2, int(math.sqrt(x)) + 1)):
+    if not any(x % el == 0 for el in range(2, int(math.sqrt(x)) + 1)):
         return 'NO'
 
-    if x%2 == 0:
+    if x % 2 == 0:
+        # 8 is a bordercase, it requires a or b to be 0 while 4 is not prime
+        if x == 8:
+            return 'NO'
         x //= 2
         if not any(x % el == 0 for el in range(2, int(math.sqrt(x)) + 1)):
             return 'NO'
@@ -21,7 +24,6 @@ def solve(x):
 
 
 def driver():
-
     tests = int(input())
     for test in range(tests):
         x = int(input())
